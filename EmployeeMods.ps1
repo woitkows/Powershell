@@ -1,5 +1,5 @@
 ﻿# Set title and backround
-$host.ui.RawUI.WindowTitle = "mbIT Employee Modifications and Employee AD Information"
+$host.ui.RawUI.WindowTitle = "Employee Modifications and Employee AD Information"
 $Host.UI.RawUI.BackgroundColor = "Black"
 
 #import active-drectory
