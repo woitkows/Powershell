@@ -264,7 +264,7 @@ Read-Host 'Press Enter to Continue....' | Out-Null
   
   }
   6{
-  #Find all Locked Out Users in mcgarrybowen NYC
+  #Find all Locked Out Users in company
 
 
 #Variable for Locked Users
