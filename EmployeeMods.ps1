@@ -98,7 +98,7 @@ $homedir = "\\homedrive\users\($($firstname).$($lastname)"
 
 Write-Host "Creating New User"
 
-New-ADUser -Name "$firstname $lastname" -AccountPassword $password -AllowReversiblePasswordEncryption $False  -ChangePasswordAtLogon $False -City "New York" -Company mcgarrybowen -Country US -DisplayName "$firstname $lastname" -EmailAddress "$($firstname).$($lastname)@mcgarrybowen.com" -HomeDirectory $homedir -HomeDrive U: -PasswordNeverExpires $False -PasswordNotRequired $False -Path "OU=NYC5,OU=McGarryBowen,OU=Employees,OU=Users,OU=US,DC=americas,DC=media,DC=global,DC=loc" -SamAccountName "$($firstname).$($lastname)" -UserPrincipalName "$($firstname).$($lastname)@mcgarrybowen.com" -GivenName $firstname -Surname $lastname -Enabled $true
+New-ADUser -Name "$firstname $lastname" -AccountPassword $password -AllowReversiblePasswordEncryption $False  -ChangePasswordAtLogon $False -City "New York" -Company company -Country US -DisplayName "$firstname $lastname" -EmailAddress "$($firstname).$($lastname)@companycom" -HomeDirectory $homedir -HomeDrive U: -PasswordNeverExpires $False -PasswordNotRequired $False -Path "OU=,OU=,OU=,OU=,OU=,DC=,DC=DC=,DC=" -SamAccountName "$($firstname).$($lastname)" -UserPrincipalName "$($firstname).$($lastname)@company.com" -GivenName $firstname -Surname $lastname -Enabled $true
 
 #Import Groups
 
